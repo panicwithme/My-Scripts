@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# This script executes sets remote origin in each local repo in the $DIR directory.
+# This script sets remote origin in each local repo in the $DIR directory.
 # I use this script to switch URLs from HTTPS to SSH
 
 # colors
@@ -12,7 +12,7 @@ ENDCOLOR="\e[0m"
 # !!!!!!!!!
 # set $DIR!
 # !!!!!!!!!
-DIR="/home/cidem/Documents/GitHub/Mine/"
+DIR="/home/x/GitHub/"
 
 dir_count=`ls -l | grep ^d | wc -l | xargs`
 cd $DIR
