@@ -52,7 +52,7 @@ for file in *; do
 			break
 
 		elif [[ "$input" == "see" ]]; then
-			xdg-open "$file" > /dev/null 2>&1
+			xdg-open "$file" > /dev/null 2>&1 &
 			echo -n "rm/see/[enter]: "
 
 		else
